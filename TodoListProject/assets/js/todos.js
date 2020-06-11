@@ -3,7 +3,7 @@ $("ul").on("click", "li", function(){
 	$(this).toggleClass("checked");
 });
 
-// click on x t delete todo
+// deleting todo
 $("ul").on("click", "span", function(event){
 	$(this).parent().fadeOut(450, function(){
 		$(this).remove();
